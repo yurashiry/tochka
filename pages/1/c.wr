@@ -1,0 +1,2 @@
+*init file "c.wr"
+  load file on "beeco://tochka.com/"
