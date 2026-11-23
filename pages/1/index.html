@@ -5,34 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ваша страница памяти</title>
     <style>
-        /* Сброс отступов браузера */
-        html, body {
-            height: 100%;
+        * {
             margin: 0;
             padding: 0;
-        }
-        
-        /* Контейнер растягивается на весь экран */
-        .wrapper {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100%;
-            background-color: #000; /* Цвет фона на случай, если картинка не загрузится */
+            box-sizing: border-box;
         }
 
-        /* Картинка занимает всю область, сохраняя пропорции */
-        .wrapper img {
+        html, body {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Картинка заполняет экран, обрезая лишнее */
+            overflow: hidden;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
         }
     </style>
 </head>
 <body>
-    <div class="wrapper">
-        <img src="image.jpeg" alt="Фоновая картинка">
-    </div>
+    <img src="image.jpeg" alt="Подождите немного, или перезагрузите страницу">
 </body>
 </html>
