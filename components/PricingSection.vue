@@ -14,7 +14,7 @@
         <article class="tariff" data-reveal>
           <h3 class="tariff__name">Базовый</h3>
           <p class="tariff__sub">Всё необходимое, чтобы память появилась</p>
-          <p class="tariff__price">4 900 <small>₽</small></p>
+          <p class="tariff__price">10 000 <small>₽</small></p>
           <p class="tariff__price-note">разово, без подписок</p>
           <ul class="tariff__list">
             <li>
@@ -35,7 +35,7 @@
         <article class="tariff" data-reveal>
           <h3 class="tariff__name">Расширенный</h3>
           <p class="tariff__sub">Больше материалов и помощи с историей</p>
-          <p class="tariff__price">9 500 <small>₽</small></p>
+          <p class="tariff__price">15 000 <small>₽</small></p>
           <p class="tariff__price-note">разово, без подписок</p>
           <ul class="tariff__list">
             <li>
@@ -60,7 +60,7 @@
         <article class="tariff tariff--dark" data-reveal>
           <h3 class="tariff__name">Живая история</h3>
           <p class="tariff__sub">Голос, который остаётся рядом</p>
-          <p class="tariff__price">15 000 <small>₽</small></p>
+          <p class="tariff__price">20 000 <small>₽</small></p>
           <p class="tariff__price-note">разово, без подписок</p>
           <ul class="tariff__list">
             <li>
