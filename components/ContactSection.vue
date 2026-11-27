@@ -73,9 +73,9 @@
           <div class="field">
             <label for="req-interest">Что интересует</label>
             <select id="req-interest" v-model="form.interest" name="interest">
-              <option value="base">Базовый — 4 900 ₽</option>
-              <option value="extended">Расширенный — 9 500 ₽</option>
-              <option value="living">Живая история — 15 000 ₽</option>
+              <option value="base">Базовый — 10 000 ₽</option>
+              <option value="extended">Расширенный — 15 000 ₽</option>
+              <option value="living">Живая история — 20 000 ₽</option>
               <option value="advice">Пока не знаю — нужен совет</option>
             </select>
           </div>
